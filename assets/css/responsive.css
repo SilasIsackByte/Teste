@@ -1,0 +1,12 @@
+@media (max-width: 990px) {
+    .open-menu {display: block;}
+    .toggle-dots{display: block;}
+    .menu-content {display: none;}
+    .navbar {display: none;}
+    .menu {
+    position: fixed;
+    background-color: white;
+    width: 100vw;
+    z-index: 10;
+}
+}

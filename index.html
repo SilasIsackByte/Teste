@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Wonder Tour</title>
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <section class="menu-container">
+                <div class="menu-logo">
+                    <span class="open-menu" onclick="openMenu()" id="menuOpen"><i class="fa fa-bars" aria-hidden="true"></i></span>
+                    <span class="close-menu" onclick="closeMenu()" id="menuClose"><i class="fa fa-long-arrow-left" aria-hidden="true"></i></span>
+                    <a href="#"><img src="assets/imgs/logo.png" alt="logo"></a>
+                </div>
+                <div class="menu-content">
+                    <p><i class="fa fa-clock-o" aria-hidden="true"></i></i> 09:00AM — 05:00PM<span class="linha-vertical"></span><i class="fa fa-phone" aria-hidden="true"></i> <a href="#">+1 323-913-4688</a></p>
+                    <button class="btn btn1">Get a Free Quote</button>
+                </div>
+                <div class="toggle-dots"><i class="fa-solid fa-ellipsis-vertical"></i></div>
+            </section>
+            <nav class="navbar">
+                <div class="navbar-content">
+                    <div class="navbar-links">
+                        <ul>
+                            <div class="active-page">
+                                <li><a href="#">Home</a></li>
+                            </div>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Typography</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="navbar-social-medias">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <i class="fa fa-google-plus-g" aria-hidden="true"></i>
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </nav>
+            <nav class="hamburguer-menu" id="hamburguerMenu">
+                <div class="hamburguer-menu-container">
+                    <div class="hamburguer-navbar-social-medias">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <i class="fa fa-google-plus-g" aria-hidden="true"></i>
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </div>
+                    <div class="hamburguer-navbar-links">
+                        <ul>
+                            <div class="hamburguer-active-page">
+                                <li><a>Home</a></li>
+                            </div>
+                            <li><a>About</a></li>
+                            <li><a>Typography<a></li>
+                            <li><a>Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="principal" id="background">
+            <div class="principal-container">
+                <div class="principal-content">
+                    <h2>Enjoy The Best Destinations With Our Travel Agency</h2>
+                    <h1>Explore <strong>The World</strong></h1>
+                    <button class="btn btn1">Get in Touch</button>
+                </div>
+                <div class="carousel-buttons">
+                    <div class="active-image" id="button1">
+                        <button onclick="buttonImage1()"></button>
+                    </div>
+                    <div id="button2">
+                        <button onclick="buttonImage2()"></button>
+                    </div>
+                    <div id="button3">
+                        <button onclick="buttonImage3()"></button>
+                    </div>
+                </div>
+        </section>
+        <section class="principal-cards">
+            <div class="principal-cards-container">
+                <div class="principal-cards-imgs">
+                    <div class="card">
+                        <div class="card-item">
+                            <img src="assets/imgs/ballon-flights-image.jpg" alt="Imagem de Voos de Balão Para Viajar">
+                        </div>
+                        <div class="card-text">
+                            <p>Ballon Flights</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-item">
+                            <img src="assets/imgs/mountain-holiday-image.jpg" alt="Viagem Para Montanha">
+                        </div>
+                        <div class="card-text">
+                            <p>Mountain Holiday</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-item">
+                            <img src="assets/imgs/beach-holidays-image.jpg" alt="Viagem Para Praia">
+                        </div>
+                        <div class="card-text">
+                            <p>Beach Holidays</p>
+                        </div>
+                    </div>
+                </div>  
+                <button class="btn">Other Tours <i class="fa-solid fa-arrow-right-long"></i></button>
+            </div>
+        </div>
+        </section>
+        <section class="discover-new-horizons">
+            <div class="discover-new-horizons-container">
+                <div class="discover-new-horizons-image"> 
+                    <img src="assets/imgs/beach-image-4.jpg" alt="Imagem Ilustrando Uma Praia">
+                </div>
+                <div class="discover-new-horizons-content">
+                    <h2>Discover New Horizons</h2>
+                    <nav class="discover-new-horizons-content-navigation">
+                        <a class="active-button">About Us</a>
+                        <a>Why Choose Us</a>
+                        <a>Our Mission</a>
+                    </nav>
+                    <p>Wonder Tour is committed to bringing our clients the best in value and quality travel arrangements. We are passionate about travel and sharing the world's wonders with you.</p>
+                    <div>
+                        <button class="btn">Get in Touch</button>
+                        <button class="btn">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="our-services">
+            <div class="our-services-container">
+                <h2>Our Services</h2>
+                <div class="our-services-content-1">
+                    <div><img src="assets/imgs/equalization.png"></div>
+                    <div class="our-services-content-item">
+                        <h3>Personalized Matching</h3>
+                        <p>Our unique matching system lets you find just the tour you want for your next holiday.</p>
+                    </div>
+                    <div><img src="assets/imgs/badge.png"></div>
+                    <div class="our-services-content-item">
+                        <h3>Wide Variety of Tours</h3>
+                        <p>We offer a wide variety of personally picked tours with destinations all over the globe.</p>
+                    </div>
+                    <div><img src="assets/imgs/star.png"></div>
+                    <div class="our-services-content-item">
+                        <h3>Highly Qualified Service</h3>
+                        <p>Our tour managers are qualified, skilled, and friendly to bring you the best service.</p>
+                    </div>
+                </div>
+                <div class="our-services-content-2">
+                    <div><img src="assets/imgs/headphone.png"></div>
+                    <div class="our-services-content-item">
+                        <h3>24/7 Support</h3>
+                        <p>You can always get professional support from our staff 24/7 and ask any question you have.</p>
+                    </div>
+                    <div><img src="assets/imgs/fire.png"></div>
+                    <div class="our-services-content-item">
+                        <h3>Handpicked Hotels</h3>
+                        <p>Our team offers only the best selection of affordable and luxury hotels to our clients.</p>
+                    </div>
+                    <div><img src="assets/imgs/wallet.png"></div>
+                    <div class="our-services-content-item">
+                        <h3>Best Price Guarantee</h3>
+                        <p>If you find tours that are cheaper than ours, we will compensate the difference.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="hot-tours">
+            <div class="hot-tours-container">
+                <h2>Hot Tours</h2>
+                <div class="hot-tours-content-1">
+                    <div>
+                        <img src="assets/imgs/beach-image-5.jpg" alt="Imagem Ilustrando Uma Praia Lotada">
+                    </div>
+                    <div class="hot-tours-text">
+                        <h3>Bernidorm, Spain</h3>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <span>4 customer reviews</span>
+                        <p>Benidorm is a buzzing resort with a big reputation for beach holidays. Situated in sunny Costa Blanca, the town is one of the original Spanish beach resorts...</p>
+                        <button class="btn btn1">Buy This Tour</button>
+                    </div>
+                    <div class="price"><span>$790</span></div>
+                </div>
+                <div class="hot-tours-content-2">
+                    <div>
+                        <img src="assets/imgs/beach-image-6.jpg" alt="Imagem Ilustrando Uma Praia Lotada">
+                    </div>
+                    <div class="hot-tours-text">
+                        <h3>Mauritius Island, Africa</h3>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <span>5 customer reviews</span>
+                        <p>The beautiful and inviting island nation of Mauritius is an ideal 'flop and drop' at the conclusion of your safari. Indulge in the delightful scents of the fragrant...</p>
+                        <button class="btn btn1">Buy This Tour</button>
+                    </div>
+                    <div class="price"><span>$890</span></div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="one-mission">
+            <div class="one-mission-container">
+                <h2>Different People — One Mission</h2>
+                <div class="our-mission-content">
+                    <div class="our-mission-item" onmouseover="dianaOn()" onmouseleave="dianaOff()">
+                        <img id="dianaImage" src="assets/imgs/diana-image.jpg" alt="Foto de Diana Robison, Fundadora e Dona da Empresa">
+                        <div class="our-mission-item-text">
+                            <h3>Diana Robison</h3>
+                            <p class="function">Founder, Owner</p>
+                            <p>+1 323-913-4688</p>
+                        </div>
+                    </div>
+                    <div class="our-mission-item" onmouseover="peterOn()" onmouseleave="peterOff()">
+                        <img id="peterImage" src="assets/imgs/peter-image.jpg" alt="Foto de Peter McMillan, Agente de Viagens">
+                        <h3>Peter McMillan</h3>
+                        <p class="function">Travel Agent</p>
+                        <p>+1 323-913-4688</p>
+                    </div>
+                    <div class="our-mission-item" onmouseover="jillOn()" onmouseleave="jillOff()">
+                        <img id="jillImage" src="assets/imgs/jill-image.jpg" alt="Foto de Jill Peterson, Consultora de turismo">
+                        <h3>Jill McMillan</h3>
+                        <p class="function">Travel Agent</p>
+                        <p>+1 323-913-4688</p>
+                    </div>
+                    <div class="our-mission-item" onmouseover="jamesOn()" onmouseleave="jamesOff()">
+                        <img id="jamesImage" src="assets/imgs/james-image.jpg" alt="Foto de James Smith, Gerente de relações públicas">
+                        <h3>James Smith</h3>
+                        <p class="function">PR Manager</p>
+                        <p>+1 323-913-4688</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="first-class">
+            <div class="first-class-container">
+                <div class="first-class-content">
+                    <h2>First-class Impressions are Waiting for You!</h2>
+                    <p>Our agency offers travelers various tours and excursions with destinations all over the world. Browse our website to find your dream tour!</p>
+                    <button class="btn">Book a Tour Now</button>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="gallery">
+            <div class="gallery-container">
+                <h2>Gallery</h2>
+                <div class="gallery-content">
+                    <div class="gallery-content-item">
+                        <img src="assets/imgs/gallery-image-1.jpg" alt="Primeira Foto da Galeria">
+                    </div>
+                    <div class="gallery-content-item"> 
+                        <img src="assets/imgs/gallery-image-2.jpg" alt="Primeira Foto da Galeria">
+                    </div>
+                    <div class="gallery-content-item">
+                        <img src="assets/imgs/gallery-image-3.jpg" alt="Primeira Foto da Galeria">
+                    </div>
+                    <div class="gallery-content-item">
+                        <img src="assets/imgs/gallery-image-4.jpg" alt="Primeira Foto da Galeria">
+                    </div>
+                    <div class="gallery-content-item">
+                        <img src="assets/imgs/gallery-image-5.jpg" alt="Primeira Foto da Galeria">
+                    </div>
+                    <div class="gallery-content-item">
+                        <img src="assets/imgs/gallery-image-6.jpg" alt="Primeira Foto da Galeria">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+    </main>
+
+
+
+    <footer>
+        <section class="footer-container">
+            <div class="footer-content">
+                <div class="footer-content-contact">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li id="phone"><a href="#">+1 323-913-4688</a></li>
+                        <li id="email"><a href="#">info@demolink.org</a></li>
+                        <li id="address"><a href="#">4730 Crystal Springs Dr, Los Angeles, CA 90027</a></li>
+                    </ul>
+                </div>
+                <div class="footer-content-news">
+                    <h3>Popular News</h3>
+                    <a href="#">Your Personal Guide to 5 Best Places to Visit on Earth</a>
+                    <p>May 04, 2019</p>
+                    <a href="#">Top 10 Hotels: Rating by Wonder Tour Travel Experts</a>
+                    <p>May 04, 2019</p>
+                </div>
+                <div class="footer-content-links">
+                    <h3>Quick Links</h3>
+                    <div>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Our Tours</a></li>
+                            <li><a href="#">Our Team</a></li>
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>    
+                    <button class="btn btn1">Get in Touch</button>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="footer-menu">
+            <div class="footer-menu-container">
+                <div class="footer-menu-content">
+                    <div class="copyright">
+                        <p>© 2024 Wonder Tour. All Rights Reserved. Design by Isack</p>
+                    </div>
+                    <div class="navbar-social-medias">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <i class="fa fa-google-plus-g" aria-hidden="true"></i>
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </div>
+                    <div class="policy">
+                        <a href="#">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+    </footer>
+
+    <script src="assets/js/hamburguer-menu.js"></script>
+    <script src="assets/js/gallery.js"></script>
+    <script src="assets/js/one-mission.js"></script>
+
+</body>
+</html>
